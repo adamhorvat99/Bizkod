@@ -1,0 +1,36 @@
+.dashboard {
+    width: 100vw;
+    min-height: 100vh;
+    height: 100%;
+    background-color: #EFF2F5;
+    position: relative;
+    padding: 4rem 0;
+}
+
+.dashboard > header {
+    background: #00AEEF;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+    box-shadow: 5px 0 10px rgba(0, 0, 0, 0.6);
+}
+
+.dashboard__date {
+    color: #FFFFFF;
+}
+
+.dashboard > header > MenuIcon > svg {
+    font-size: 35px;
+    color: #FFFFFF;
+}
+
+.dashboard > header > img {
+    height: 2.7rem;
+}

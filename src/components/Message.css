@@ -1,0 +1,14 @@
+.message {
+    z-index: 99;
+    width: 250px;
+    height: 150px;
+    position: absolute;
+    bottom: -135px;
+    right: 0;
+    padding: 1rem;
+    border-radius: 5px;
+    background-color: #00AEEF;
+    color: #FFFFFF;
+    box-sizing: border-box;
+    font-size: 10px;
+}

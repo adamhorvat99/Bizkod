@@ -1,0 +1,107 @@
+.employeesList {
+    width: 90%;
+    margin: 2rem auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    padding: 1.5rem;
+}
+
+.employeesList > h1 {
+    font-size: 24px;
+    margin: 1rem 0;
+}
+
+.employeesList > h4 {
+    font-size: 14px;
+    margin: 1rem 0;
+}
+
+.employeesList__filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+}
+
+.employeesList__filter {
+    display: flex;
+    flex-direction: column;
+}
+
+.employeesList__filter > span {
+    font-size: 12px;
+    margin: 5px 0;
+}
+
+.employeesList__filter > select {
+    background-color: #EFF2F5;
+    color: #000000;
+    padding: 12px;
+    width: 250px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+}
+
+.employeesList__filter > select > option {
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .employeesList {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .employeesList {
+        width: 100%;
+    }
+
+    .employeesList__filter > select {
+        width: 150px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .employeesList {
+        width: 100%;
+    }
+
+
+    .employeesList__filter > select {
+        width: 250px;
+    }
+}
+
+
+@media only screen and (max-width: 620px) {
+    .employeesList {
+        width: 100%;
+    }
+
+    .employeesList__filters {
+        justify-content: center;
+    }
+
+    .employeesList__filter > select {
+        width: 400px;
+    }
+}

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.employee {
+    width: 100%;
+    height: 4rem;
+    margin: 0.5rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    position: relative;
+    border-radius: 5px;
+    border: 1px solid #000;
+}
+
+.employee > Avatar {
+    margin-right: 1.5rem;
+}
+
+.employee > span {
+    flex: 2;
+}
+
+.employee > span:first-of-type {
+    flex: 1;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .employee {
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+
+    .employee > span {
+        padding: 0 1rem;
+    }
+}

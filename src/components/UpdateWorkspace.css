@@ -1,0 +1,72 @@
+.updateWorkspace {
+    width: 90%;
+    margin: 3rem auto;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    padding: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.updateWorkspace > h1 {
+    font-size: 24px;
+    margin: 1rem 0;
+}
+
+.updateWorkspace > h4 {
+    font-size: 14px;
+    margin: 1rem 0;
+}
+
+.updateWorkspace__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.updateWorkspace__card {
+    width: 30%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EFF2F5;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+.updateWorkspace__card > select {
+    width: 70%;
+}
+
+.updateWorkspace__card > Button {
+    background-color: #00AEEF;
+    color: #FFFFFF;
+    width: 150px;
+}
+
+.updateWorkspace__card > Button:hover {
+    background-color: transparent;
+    color: #00AEEF;
+    border: 1px solid #00AEEF;
+}
+
+.updateWorkspace__card > textarea {
+    width: 70%;
+    height: 150px;
+    resize: none;
+    outline: none;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 620px) {
+    .updateWorkspace__wrapper {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,82 @@
+.updateWorkspace__card {
+    width: 370px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #EFF2F5;
+    border-radius: 10px;
+    border: 1px solid #000000;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+    margin: 1rem 0;
+    box-sizing: border-box;
+}
+
+.updateWorkspace__card > select {
+  
+    background-color: #EFF2F5;
+    color: #000000;
+    padding: 12px;
+    width: 80%;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+  
+}
+
+.updateWorkspace__card > Button {
+    background-color: #00AEEF;
+    color: #FFFFFF;
+    width: 150px;
+}
+
+.updateWorkspace__card > Button:hover {
+    background-color: transparent;
+    color: #00AEEF;
+    border: 1px solid #00AEEF;
+}
+
+.updateWorkspace__card > textarea {
+    width: 80%;
+    height: 150px;
+    resize: none;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #EFF2F5;
+    color: #000000;
+}
+
+@media only screen and (max-width: 992px) {
+    .updateWorkspace__card  {
+        width: 200px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) {
+    .updateWorkspace__card {
+        width: 250px;
+    }
+
+    .employeesList__filter > select {
+        width: 250px;
+    }
+}
+
+
+@media only screen and (max-width: 620px) {
+    .updateWorkspace__card {
+        width: 350px;
+    }
+
+    .updateWorkspace__card {
+        align-content: center;
+    }
+}
